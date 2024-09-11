@@ -1,19 +1,46 @@
-/* Import Montserrat font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-/* Import Tailwind CSS */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-*{
-  font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-main{
-  margin :0 auto;
-  max-width: fit-content
+main {
+  margin: 0 auto;
+  max-width: fit-content;
+}
+.title {
+  text-align: center;
+  margin: 0 auto;
+}
+.input_holder {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+input,
+button {
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.icon_holder {
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  background-color: rgb(216, 216, 216);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.icon{
+  cursor: pointer;
 }
